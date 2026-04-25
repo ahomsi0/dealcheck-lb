@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ShieldCheck } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
@@ -46,12 +45,8 @@ export function Footer() {
 
         <Separator className="my-8" />
 
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
+        <div className="flex items-center justify-center text-xs text-muted-foreground">
           <p>© {new Date().getFullYear()} DealCheck LB. All rights reserved.</p>
-          <p className="flex items-center gap-1.5">
-            <ShieldCheck className="h-3 w-3" />
-            Built to protect Lebanese buyers
-          </p>
         </div>
       </div>
     </footer>
