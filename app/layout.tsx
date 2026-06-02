@@ -20,10 +20,7 @@ export const metadata: Metadata = {
     "Paste any Lebanese marketplace listing and get a risk score, price check, red flags, and negotiation advice. Built for cars, phones, laptops and more.",
   keywords: ["Lebanon marketplace", "deal check", "OLX Lebanon", "Facebook Marketplace", "used cars Lebanon", "buyer protection"],
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico" },
-    ],
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: ["/favicon.svg"],
     apple: [{ url: "/dealcheck-logo-mark.svg", type: "image/svg+xml" }],
   },
