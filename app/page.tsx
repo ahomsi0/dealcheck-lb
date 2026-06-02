@@ -3,7 +3,6 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { WhatWeLookFor } from "@/components/landing/WhatWeLookFor";
 import { BuiltForLebanon } from "@/components/landing/BuiltForLebanon";
 import { CategoryGrid } from "@/components/landing/CategoryGrid";
-import { PricingSection } from "@/components/landing/PricingSection";
 
 export default function HomePage() {
   return (
@@ -13,7 +12,6 @@ export default function HomePage() {
       <WhatWeLookFor />
       <BuiltForLebanon />
       <CategoryGrid />
-      <PricingSection />
     </>
   );
 }

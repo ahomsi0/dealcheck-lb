@@ -15,7 +15,6 @@ export function Navbar() {
   const links = [
     { href: "/", label: "Home" },
     { href: "/analyze", label: "Analyzer" },
-    { href: "/#pricing", label: "Pricing" },
   ];
 
   return (
